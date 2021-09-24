@@ -1,0 +1,31 @@
+<div class="header">
+    <img class="logo" src="assets/logo.svg" alt="logo" height="24" width="24">
+    <div class="left">
+        <div class="item cursor" (click)="onToggleSidebar.emit()">
+            <i class="bi bi-list"></i>
+        </div>
+        <div class="item">
+            <input type="text" name="search" id="search" placeholder="Search">
+        </div>
+    </div>
+    <div class="action-btns-divider one"></div>
+    <div class="action-btns">
+        <div class="item cursor">
+            <i class="bi bi-bell"></i>
+        </div>
+        <div class="item cursor" (click)="onSettings.emit()">
+            <i class="bi bi-sliders"></i>
+        </div>
+    </div>
+    <div class="action-btns-divider two"></div>
+    <div class="right">
+        <div class="item">
+            <img class="profile-img" src="https://fully-preview.angular-templates.io/assets/imgs/users/user-8.jpeg"
+                alt="profile-img" width="40" height="40">
+        </div>
+        <div class="item profile-name">
+            <span>Alex Martins</span>
+            <i class="bi bi-chevron-down"></i>
+        </div>
+    </div>
+</div>

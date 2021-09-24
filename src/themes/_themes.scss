@@ -1,0 +1,28 @@
+//all available themes in project
+
+@import "../app/apps/custom-app/themes/light.scss";
+@import "../app/apps/custom-app/themes/dark.scss";
+@import "./sideNavAndSideMenu.scss";
+@import "./highlightedTopNav.scss";
+@import "./HighlightedCombo.scss";
+@import "./HighlightedSideMenu.scss";
+// @import "../app/BootstrapApp/themes/light.scss";
+// @import "../app/BootstrapApp/themes/dark.scss";
+// @import "../app/materialApp/themes/light.scss";
+// @import "../app/materialApp/themes/dark.scss";
+
+$themes: (
+  default-light: $custom-light-theme,
+  default-dark: $custom-dark-theme,
+  // bootstrap-light:$bootstrap-light-theme,
+  // bootstrap-dark:$bootstrap-dark-theme,
+  // material-light:$material-light-theme,
+  // material-dark:$material-dark-theme,
+  );
+  
+$layouts: (
+  highlighted-top-nav: $highlighted-top-nav-layout,
+  highlighted-side-menu: $highlighted-side-menu-layout, 
+  highlighted-combo: $highlighted-combo-layout,
+  side-nav-side-menu: $side-nav-side-menu-layout,
+);
